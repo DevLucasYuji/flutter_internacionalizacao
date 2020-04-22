@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
       localizationsDelegates: [
         S.delegate,
       ],
+      supportedLocales: S.delegate.supportedLocales,
       title: "Flutter",
       theme: ThemeData(
         primarySwatch: Colors.blue,
